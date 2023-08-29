@@ -1,3 +1,4 @@
+# Corrected Book class
 class Book:
     def __init__(self, title="", page_count=0):
         self.title = title
@@ -16,13 +17,3 @@ class Book:
 
     def turn_page(self):
         return "Flipping the page...wow, you read fast!"
-
-class Shoe:
-    def __init__(self, brand="Unknown", size=0):
-        self.brand = brand
-        self.size = size
-        self.condition = "New"
-
-    def cobble(self):
-        self.condition = "New"
-        return "Your shoe has been repaired."
